@@ -232,7 +232,7 @@ class AddUpdateDishesActivity : AppCompatActivity() {
                     // You even print the log if Toast is not displayed on emulator
                     Log.e("Insertion", "Success")
                 } else {
-                       mPlatefulViewModel.updateDishDetails(favDishDetails)
+                    mPlatefulViewModel.updateDishDetails(favDishDetails)
                     Toast.makeText(
                         this,
                         "You successfully Updated your favorite dish details.",

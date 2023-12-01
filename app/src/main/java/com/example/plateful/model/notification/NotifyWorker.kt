@@ -106,13 +106,7 @@ class NotifyWorker(context:Context,workParams:WorkerParameters): Worker(context,
 
 
 
-            /**
-             * @param context A {@link Context} that will be used to construct the
-             *      RemoteViews. The Context will not be held past the lifetime of this
-             *      Builder object.
-             * @param channelId The constructed Notification will be posted on this
-             *      NotificationChannel.
-             */
+
 
         // END
 

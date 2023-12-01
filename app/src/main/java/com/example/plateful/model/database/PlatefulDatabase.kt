@@ -7,9 +7,9 @@ import androidx.room.RoomDatabase
 import com.example.plateful.model.entities.PlatefulModel
 
 @Database(entities = [PlatefulModel::class], version = 1)
-abstract class PlatefulDatabase:RoomDatabase() {
+abstract class PlatefulDatabase : RoomDatabase() {
 
-    abstract fun platefulDao():PlatefulDao
+    abstract fun platefulDao(): PlatefulDao
 
 
     companion object {
