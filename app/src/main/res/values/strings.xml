@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Plateful</string>
+    <string name="title_dishes">Dishes</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="title_random">Random</string>
+    <string name="splash_screen_title">Plateful</string>
+    <string name="add_dish">Add Dish</string>
+    <string name="image_contentDescription">image</string>
+    <string name="lbl_title">Title</string>
+    <string name="lbl_type">Type</string>
+    <string name="lbl_category">Category</string>
+    <string name="lbl_ingredients">Ingredients</string>
+    <string name="lbl_cooking_time_in_minutes">Cooking Time In Minutes</string>
+    <string name="lbl_direction_to_cook">Direction To Cook</string>
+    <string name="lbl_add_dish">ADD DISH</string>
+
+
+    <string name="title_select_image">Select Image Action</string>
+    <string name="lbl_camera">Camera</string>
+    <string name="lbl_gallery">Gallery</string>
+    <string name="category">Category</string>
+    <string name="type">Type</string>
+    <string name="cooking_time">Cooking Time</string>
+
+    <string name="err_msg_select_dish_image">Select dish image.</string>
+    <string name="err_msg_enter_dish_title">Enter dish title.</string>
+    <string name="err_msg_select_dish_type">Select dish type.</string>
+    <string name="err_msg_select_dish_category">Select dish category.</string>
+    <string name="err_msg_enter_dish_ingredients">Enter dish ingredients.</string>
+    <string name="err_msg_select_dish_cooking_time">Select dish cooking time.</string>
+    <string name="err_msg_enter_dish_cooking_instructions">Enter dish cooking instructions.</string>
+    <string name="label_no_dishes_added_yet">NO Dishes Added Yet!!\n</string>
+
+    <string name="lbl_estimate_cooking_time">The approx time required to cook the dish is %1$s minutes.</string>
+     <string name="edit_dish">EDIT DISH</string>
+     <string name="update_dish">UPDATE DISH</string>
+
+    <string name="title_delete_dish">Delete Dish</string>
+    <string name="msg_delete_dish_dialog">Are you sure you wants to delete %1$s.</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="lbl_no">No</string>
+
+    <string name="title_select_item_to_filter">SELECT ITEM TO FILTER</string>
+
+
+    <string-array name="dish_category">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snacks</item>
+        <item>Side Dishes</item>
+        <item>Salad</item>
+        <item>Dessert</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="dish_type">
+        <item>BBQ</item>
+        <item>Chicken</item>
+        <item>Paneer</item>
+        <item>Mushroom</item>
+        <item>Dal</item>
+        <item>Tea Coffee</item>
+        <item>Hot Dogs</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="cooking_time">
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>40 min</item>
+        <item>45 min</item>
+        <item>50 min</item>
+        <item>60 min</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_no_favorite_dishes_added_yet">No Favourite Dishes Added Yet!!</string>
+    <string name="action_filter_dish">Action Filter Dish</string>
+
+    <string name="already_added_to_Favourites">Already Added To Favourites</string>
+    <string name="action_share_dish">Dish Share</string>
+    <string name="please_wait">Please Wait..</string>
+
+    <string name="notification_title">Checkout new dish recipes</string>
+    <string name="notification_subtitle">Tap for more detail</string>
+
+</resources>

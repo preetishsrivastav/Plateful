@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dishes">
+
+    <fragment
+        android:id="@+id/navigation_dishes"
+        android:name="com.example.plateful.ui.fragments.notifications.dish.AllDishesFragment"
+        android:label="@string/title_dishes"
+        tools:layout="@layout/fragment_favourite_dishes" >
+        <action
+            android:id="@+id/action_navigation_dishes_to_navigation_dish_detail"
+            app:destination="@id/navigation_dish_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_favourites"
+        android:name="com.example.plateful.ui.fragments.notifications.favourite.FavouriteDishesFragment"
+        android:label="@string/title_favourites"
+        tools:layout="@layout/fragment_all_dishes" >
+        <action
+            android:id="@+id/action_navigation_favourites_to_navigation_dish_detail"
+            app:destination="@id/navigation_dish_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_random"
+        android:name="com.example.plateful.ui.fragments.notifications.RandomDishFragment"
+        android:label="@string/title_random"
+        tools:layout="@layout/fragment_random_dish" />
+    <fragment
+        android:id="@+id/navigation_dish_detail"
+        android:name="com.example.plateful.ui.fragments.notifications.DishDetailsFragment"
+        android:label="Dish Details"
+        tools:layout="@layout/fragment_dish_details">
+        <argument
+            android:name="dish detail"
+            app:argType="com.example.plateful.model.entities.PlatefulModel"/>
+    </fragment>
+
+</navigation>
